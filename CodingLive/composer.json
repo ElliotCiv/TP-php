@@ -1,0 +1,10 @@
+{
+    "name": "autoloader/test",
+    "description": "autoloader test",
+    "autoload":{
+        "psr-4": {
+            "App\\" : "App/"
+        }
+    },
+    "require": {}
+}
