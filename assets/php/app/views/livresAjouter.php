@@ -3,8 +3,8 @@
     ob_start();
 ?>
 <head>
-    <link rel="stylesheet" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <form action="<?=URL?>livres/valider" method="POST" enctype="multipart/form-data">
     <label for="titre">Titre du livre : </label><br>
